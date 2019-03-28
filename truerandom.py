@@ -51,6 +51,3 @@ class quantrand():
             shuffled_seq.append(choice_seq)
             sequence.remove(choice_seq)
         return shuffled_seq
-
-x = quantrand().shuffle(range(10))
-print x
